@@ -9,3 +9,7 @@ func Test(x int) int {
 func MoreTest(str string) string {
 	return strings.ToUpper(str)
 }
+
+func SayHello(name string) string {
+	return "Hello " + name
+}
