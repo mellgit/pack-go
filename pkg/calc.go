@@ -17,3 +17,11 @@ func SayHello(name string) string {
 func TwoSum(a, b int) int {
 	return a + b
 }
+
+func ArrSum(arr []int) int {
+	result := 0
+	for _, value := range arr {
+		result += value
+	}
+	return result
+}
