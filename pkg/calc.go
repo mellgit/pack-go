@@ -13,3 +13,7 @@ func MoreTest(str string) string {
 func SayHello(name string) string {
 	return "Hello " + name
 }
+
+func TwoSum(a, b int) int {
+	return a + b
+}
